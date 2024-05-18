@@ -9,17 +9,27 @@
   <body>
     <header>
       <h1>Data Science Projects</h1>
+      <button class="home-btn" onclick="goBackToHomePage()">
+        Go Back to Home Page
+      </button>
     </header>
     <main>
       <div class="project">
-        <button class="dropdown-btn">SPOTIFY EDA</button>
+        <button class="dropdown-btn">NETFLIX EDA</button>
         <div class="dropdown-container">
+          <img src="images\Marielle_Pati_EDA_Page_1.jpg" alt="Netflix EDA" />
           <p>
-            An Analysis of the Presence of Asian Musicians in Global Top Music
-            Charts
+            This exploratory data analysis (EDA) aims to uncover insights and
+            patterns within the Netflix IMDb Scores dataset. Focusing on
+            specific aspects, the analysis will provide valuable information
+            about audience preferences, age certifications, and trends across
+            different release years.
           </p>
-          <a href="assets\02_Spotify.html" class="download-btn" target="_blank"
-            >View HTML</a
+          <a
+            href="assets\Marielle_Pati_EDA.pdf"
+            class="download-btn"
+            target="_blank"
+            >View pdf</a
           >
         </div>
       </div>
@@ -47,6 +57,13 @@
         </div>
       </div>
     </main>
+
+    <script>
+      function goBackToHomePage() {
+        window.location.href = "index.html";
+      }
+    </script>
+
     <script src="assets\js\script.js"></script>
   </body>
 </html>

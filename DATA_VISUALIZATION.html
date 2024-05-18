@@ -4,22 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marielle's PowerBI Projects</title>
-    <link rel="stylesheet" href="assets\css\styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header>
       <h1>Power BI Projects</h1>
+      <button class="home-btn" onclick="goBackToHomePage()">
+        Go Back to Home Page
+      </button>
     </header>
     <main>
       <div class="project">
         <button class="dropdown-btn">Maven Market Sales</button>
         <div class="dropdown-container">
           <img
-            src="images\MavenMarket Works_Page_1.jpg"
+            src="images/MavenMarket Works_Page_1.jpg"
             alt="Maven Market Sales"
           />
           <img
-            src="images\MavenMarket Works_Page_2.jpg"
+            src="images/MavenMarket Works_Page_2.jpg"
             alt="Additional Analysis"
           />
           <a href="download-link" class="download-btn">Download</a>
@@ -32,6 +35,11 @@
         </div>
       </div>
     </main>
-    <script src="assets\js\script.js"></script>
+    <script>
+      function goBackToHomePage() {
+        window.location.href = "index.html"; // Replace 'index.html' with your home page URL
+      }
+    </script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
