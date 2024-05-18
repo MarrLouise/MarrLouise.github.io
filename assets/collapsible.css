@@ -1,0 +1,23 @@
+/* Collapsible Panels Styles */
+.collapsible-header {
+  padding: 10px;
+  background-color: #161a30; /* Dark blue background */
+  color: #ffffff; /* Adding white text color for better readability */
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.collapsible-header:hover {
+  background-color: #2a2f45; /* Slightly lighter blue for hover effect */
+}
+
+.collapsible-content {
+  padding: 10px 20px;
+  display: none; /* Start with content hidden */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.collapsible-content img {
+  max-width: 100%; /* Ensures images scale down if needed */
+}
